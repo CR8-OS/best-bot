@@ -1,0 +1,20 @@
+{
+  "name": "best-bot",
+  "version": "1.1.0",
+  "description": "Watches a Best Buy purchase for price drops through your return window and writes the price-match claim for you.",
+  "author": {
+    "name": "CR8-OS",
+    "url": "https://github.com/CR8-OS"
+  },
+  "homepage": "https://github.com/CR8-OS/best-bot",
+  "repository": "https://github.com/CR8-OS/best-bot",
+  "license": "MIT",
+  "keywords": [
+    "best buy",
+    "price match",
+    "price drop",
+    "refund",
+    "shopping",
+    "retail"
+  ]
+}
