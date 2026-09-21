@@ -6,7 +6,7 @@ up. Everything the run needs goes in the prompt.
 ## Creating the task
 
 Use the session's scheduled-task tooling (on Cowork, the Claude Code Remote
-MCP `create_trigger`). Do not use an in-process scheduler — those die with the
+MCP `create_trigger`). Do not use an in-process scheduler, those die with the
 session and the watch silently never runs.
 
 Four settings decide whether the watch actually works. Get them right at
@@ -22,7 +22,7 @@ creation:
 3. **Automatic approval.** A scheduled run that drives a browser will hit
    permission prompts with nobody there to answer. Tell the user at setup that
    the task needs automatic approval switched on in its settings, or runs will
-   stall silently — which is worse than no watch, because they'll believe it's
+   stall silently, which is worse than no watch, because they'll believe it's
    working.
 4. **UTC cron.** The cron expression is evaluated in UTC. Convert the user's
    local time before writing it, shift the day fields if the conversion
@@ -58,14 +58,18 @@ WHAT TO DO
    the user to delete the scheduled task named above, and stop.
 2. Check Best Buy's current price for SKU [SKU] using a browser.
 3. If it is below [PRICE PAID], run the exclusion pass before treating it as a
-   find — clearance, open-box, limited-quantity and special daily or hourly
+   find. Clearance, open-box, limited-quantity and special daily or hourly
    sale prices are excluded even when the price is Best Buy's own.
 4. Otherwise check qualified competitors per the skill's checking procedure.
 5. Apply every eligibility rule before treating anything as a find.
-6. Notify ONLY on: a qualifying find; a window-closing warning if today is
+6. Before notifying about a find, load Best Buy's live Price Match Guarantee
+   page and reconcile it against the skill's rules. The live page wins. Say in
+   the notification if a rule has changed. If the policy page will not load,
+   still notify, and say the rules could not be re-verified this run.
+7. Notify ONLY on: a qualifying find; a window-closing warning if today is
    exactly three days before [WINDOW END DATE]; or a failure that prevented
    the check from running. Stay silent on an ordinary no-change run.
-7. On a find, include retailer, exact URL, price, seller, stock status, the
+8. On a find, include retailer, exact URL, price, seller, stock status, the
    dollar difference versus [PRICE PAID], a rule-by-rule eligibility check,
    and the filled-in claim script.
 
@@ -88,13 +92,13 @@ RULES
 
 - Daily at a consistent local morning hour suits most purchases.
 - Twice daily for items over $1,000 or during a known sale period.
-- More often than that is noise — retail prices do not move hourly, and each
+- More often than that is noise, retail prices do not move hourly, and each
   run costs the user something.
 
 ## Turning it off
 
 Tell the user at setup how to stop the watch: it appears in their scheduled
 tasks list under the name you gave it, and can be deleted there, or they can
-ask Claude to delete it by that name. Say this at setup, not only at the end —
-a user who cannot find the off switch will not install the next thing you
+ask Claude to delete it by that name. Say this at setup, not only at the end.
+A user who cannot find the off switch will not install the next thing you
 build.

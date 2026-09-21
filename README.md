@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-black.svg" alt="License: MIT"></a>
-  <a href="https://github.com/CR8-OS/best-bot/releases"><img src="https://img.shields.io/badge/version-1.1.0-black.svg" alt="Version 1.1.0"></a>
+  <a href="https://github.com/CR8-OS/best-bot/releases"><img src="https://img.shields.io/badge/version-1.2.0-black.svg" alt="Version 1.2.0"></a>
   <img src="https://img.shields.io/badge/Claude-plugin-black.svg" alt="Claude plugin">
   <a href="https://github.com/CR8-OS"><img src="https://img.shields.io/badge/by-CR8--OS-black.svg" alt="by CR8-OS"></a>
 </p>

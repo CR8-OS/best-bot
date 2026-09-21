@@ -1,6 +1,6 @@
 # Checking procedure
 
-## Browsing scope — read this before opening anything
+## Browsing scope: read this before opening anything
 
 Browsing here is read-only and public.
 
@@ -14,7 +14,7 @@ that adds to cart, starts a checkout, or opens a conversation.
 
 Prefer a logged-out or private context. Costco, Sam's Club, BJ's and Amazon all
 show member or Prime-gated prices to signed-in visitors, and a member price is
-not matchable — from the page alone you often cannot tell which price you are
+not matchable, from the page alone you often cannot tell which price you are
 looking at.
 
 ## Tools
@@ -25,7 +25,7 @@ against them usually returned nothing usable.
 
 If no browser is available in the session, say the check could not run and
 stop. Do not substitute a plain HTTP fetch or a search-engine snippet for a
-loaded page — snippets go stale, strip seller and stock context, and are the
+loaded page, snippets go stale, strip seller and stock context, and are the
 single most likely source of a wrong claim.
 
 ## Order of checks
@@ -36,7 +36,7 @@ single most likely source of a wrong claim.
 2. **If the Best Buy price is below the price paid, run the exclusion pass
    before celebrating.** Is it badged clearance, open-box, or limited
    quantity? Is it a daily or hourly deal? Those are excluded even though the
-   price is Best Buy's own. If it survives the exclusion pass, stop here — no
+   price is Best Buy's own. If it survives the exclusion pass, stop here, no
    competitor check can improve on the retailer matching itself.
 3. **Amazon and Walmart**, searched by model number first, then by a
    distinctive product-title phrase if the model number returns nothing.
@@ -49,23 +49,53 @@ single most likely source of a wrong claim.
 
 For every candidate price, record and check:
 
-- **URL** — the exact page. Needed for the claim.
-- **Seller** — "Sold by" or "Ships from and sold by". A third-party name
+- **URL**: the exact page. Needed for the claim.
+- **Seller**: "Sold by" or "Ships from and sold by". A third-party name
   disqualifies it. On Amazon, "Ships from Amazon, Sold by <someone else>" is
   still a third-party sale and is excluded.
-- **Condition** — new only.
-- **Stock** — in stock and available now. "Only 1 left" and "limited
+- **Condition**: new only.
+- **Stock**: in stock and available now. "Only 1 left" and "limited
   quantity" language disqualifies.
-- **Bundle** — read the full title. Vendors hide bundles in the title tail
+- **Bundle**: read the full title. Vendors hide bundles in the title tail
   ("... + Traix MousePad"). A bundled title is not a match.
-- **Configuration** — confirm CPU, GPU, RAM, storage, size and color against
+- **Configuration**: confirm CPU, GPU, RAM, storage, size and color against
   the receipt. Retailers list near-identical variants side by side.
-- **Conditions** — coupon checkboxes, card-specific pricing, membership
+- **Conditions**: coupon checkboxes, card-specific pricing, membership
   pricing, subscription pricing, deal countdowns.
 
 **If a price is only revealed by adding the item to a cart, do not add it.**
 Record "price not publicly displayed" and move on. Cart-gated MAP pricing is
 not worth breaking the no-cart rule for.
+
+## Confirm the rules before you claim, not on a timer
+
+A find is the only moment policy accuracy actually matters, so that is where the
+live check belongs. Before notifying the user about a qualifying find, load
+Best Buy's Price Match Guarantee page and reconcile it against
+`price-match-rules.md`:
+
+https://www.bestbuy.com/site/help-topics/best-buy-price-match-guarantee/pcmcat297300050000.c?id=pcmcat297300050000
+
+Check three things: the exclusion list, the "we lower our own price during the
+return and exchange period" clause, and how a BestBuy.com request is made. If
+the page and the reference file disagree, the page wins. Say so in the
+notification, name the rule that moved, and re-run the eligibility pass against
+the live wording before handing over a claim script.
+
+If the policy page will not load, notify anyway. Say the find is real and that
+the rules could not be re-verified this run, and point the user at the page.
+Never suppress a find over a failed policy check, and never present a claim as
+verified when it was not.
+
+Do not put the policy check on its own schedule. Most runs find nothing, and a
+recurring check against a page that changes a few times a year spends the
+user's runs to learn nothing. Checking on the find path costs one page load on
+the one day it matters.
+
+The exception is a long watch. On a 60-day window, if the POLICY_VERIFIED date
+in `price-match-rules.md` is more than 90 days old, mention it once in the next
+notification you were already sending. Do not send a notification purely to
+report that a reference file is getting old.
 
 ## Anti-hallucination discipline
 
@@ -76,7 +106,7 @@ not worth breaking the no-cart rule for.
 - Never fill a gap from memory. A price from a previous run is history, not a
   current price.
 - Before notifying, restate the find against each rule in
-  `price-match-rules.md` — including the full exclusion list — and confirm it
+  `price-match-rules.md`, including the full exclusion list, and confirm it
   passes. Write the check out; do not assert it.
 
 ## What a good find looks like

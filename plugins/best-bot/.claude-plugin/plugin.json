@@ -1,6 +1,6 @@
 {
   "name": "best-bot",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Watches a Best Buy purchase for price drops through your return window and writes the price-match claim for you.",
   "author": {
     "name": "CR8-OS",

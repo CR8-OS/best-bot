@@ -12,17 +12,17 @@ See the [repository README](../../README.md) for install and usage.
 
 ## Contents
 
-- `skills/best-bot/SKILL.md` — the skill
-- `skills/best-bot/references/price-match-rules.md` — eligibility, the full
+- `skills/best-bot/SKILL.md`: the skill
+- `skills/best-bot/references/price-match-rules.md`: eligibility, the full
   exclusion list, qualified competitors, window lengths, restocking fees
-- `skills/best-bot/references/checking-procedure.md` — browsing scope, and how
+- `skills/best-bot/references/checking-procedure.md`: browsing scope, and how
   to check a price without being fooled by bundles, marketplace sellers,
   member pricing, or stale pages
-- `skills/best-bot/references/claim-scripts.md` — claim wording and pushback
+- `skills/best-bot/references/claim-scripts.md`: claim wording and pushback
   handling
-- `skills/best-bot/references/schedule-template.md` — scheduled-task setup and
+- `skills/best-bot/references/schedule-template.md`: scheduled-task setup and
   the self-contained run prompt
-- `assets/` — logo
+- `assets/`: logo
 
 ## Asset notes
 
@@ -30,7 +30,7 @@ See the [repository README](../../README.md) for install and usage.
 downward price arrow with the bot's eyes in the shaft. It is pure geometry and
 renders identically everywhere. The `best-bot-logo*.svg` lockups set the
 wordmark in a font stack (Inter, then system sans), so the wordmark's exact
-shape depends on what the viewer has installed — use `best-bot-logo.png` where
+shape depends on what the viewer has installed, use `best-bot-logo.png` where
 the rendering must be fixed.
 
 Palette: yellow `#FFF200`, ink `#0F0F0F`. The mark carries an ink keyline so it

@@ -1,18 +1,24 @@
 # Best Buy price match rules
 
-Verified against Best Buy's published policy pages as of September 2026.
-Policies change. When a live page contradicts this file, trust the page and
-tell the user the reference is out of date.
+<!-- POLICY_VERIFIED: 2026-09-21 -->
+
+Verified against Best Buy's published policy pages on 2026-09-21. Policies
+change. When a live page contradicts this file, trust the page, tell the user
+the reference is out of date, and say which rule moved.
+
+Treat the date in the POLICY_VERIFIED comment above as this file's expiry
+warning, not its expiry. It is stale the moment Best Buy edits a page, which
+they do without announcement.
 
 Sources:
-- Price Match Guarantee — https://www.bestbuy.com/site/help-topics/best-buy-price-match-guarantee/pcmcat297300050000.c?id=pcmcat297300050000
-- Return & Exchange Policy — https://www.bestbuy.com/site/help-topics/return-exchange-policy/pcmcat260800050014.c?id=pcmcat260800050014
+- Price Match Guarantee: https://www.bestbuy.com/site/help-topics/best-buy-price-match-guarantee/pcmcat297300050000.c?id=pcmcat297300050000
+- Return & Exchange Policy: https://www.bestbuy.com/site/help-topics/return-exchange-policy/pcmcat260800050014.c?id=pcmcat260800050014
 
 ## The two ways to win
 
 **1. Best Buy lowers its own price.** The policy: "If we lower our in-store,
 online or app price during the return and exchange period, we will match our
-lower price, upon request." This is usually the cleaner claim — no competitor
+lower price, upon request." This is usually the cleaner claim, no competitor
 to argue about. It is **not** exempt from the exclusion list below. A drop
 that is a clearance, open-box, limited-quantity or special daily/hourly sale
 price is excluded even when it is Best Buy's own price. Check the exclusions
@@ -25,7 +31,7 @@ before calling it a find.
 The return and exchange period **begins the day the product is received**, not
 the day it was ordered. Best Buy's policy is explicit about this. For a shipped
 item that is usually two to seven days later than the order date, and getting
-it wrong costs the user the tail of their window — the part most likely to
+it wrong costs the user the tail of their window, the part most likely to
 contain a price drop.
 
 Always establish the delivery date. Fall back to the order date only when
@@ -34,8 +40,8 @@ conservative and the real deadline is probably later.
 
 ## Return and exchange window
 
-Set by membership tier. Holding a My Best Buy credit card does not extend it —
-the old spend-based Elite / Elite Plus tiers no longer govern returns. Do not
+Set by membership tier. Holding a My Best Buy credit card does not extend it.
+The old spend-based Elite / Elite Plus tiers no longer govern returns. Do not
 tell users their card buys them extra days.
 
 | Situation | Window |
@@ -51,23 +57,23 @@ tell users their card buys them extra days.
 | Microsoft Office | 30 days, all customers |
 | Marketplace purchases | Standard 15 days; member extensions do not apply |
 
-Marketplace items are still returnable on the standard window — they are just
+Marketplace items are still returnable on the standard window, they are just
 not price-matchable and get no member extension. Do not imply they cannot be
 returned.
 
-## Eligibility — a candidate must pass all of these
+## Eligibility: a candidate must pass all of these
 
 - **Qualified retailer.** The competitor must be on Best Buy's published list.
   As of this writing: Amazon, Walmart, Target, Costco, Sam's Club, BJ's, B&H
   Photo, Micro Center, Abt, P.C. Richard, Crutchfield, Dick's, Home Depot,
   Lowe's, Menards, BrandsMart USA, Nebraska Furniture Mart, RC Willey, Apple.
-  Re-read the policy page when the list matters — it changes.
+  Re-read the policy page when the list matters, it changes.
 - **Not qualified:** any retailer not on that list, including Newegg, eBay,
   manufacturer marketplaces, and specialist configurators that resell laptops.
 - **Sold and shipped by the retailer itself.** Any third-party marketplace
-  seller is excluded — including Best Buy's own Marketplace. A cheaper listing
+  seller is excluded, including Best Buy's own Marketplace. A cheaper listing
   on bestbuy.com sold by a Marketplace vendor is not matchable.
-- **Exact same item.** Same model number and configuration — CPU, GPU, memory,
+- **Exact same item.** Same model number and configuration, CPU, GPU, memory,
   storage, size, color. A different SKU with similar specs is a different
   product.
 - **New, in stock, immediately available.** Not open-box, refurbished,
@@ -93,8 +99,8 @@ A price is not matchable if it is or involves any of:
 - Best Buy Business, Education, or Marketplace transactions
 
 Compare pre-tax. Treat the item price only; if shipping is material to the
-comparison, raise it with the agent rather than asserting how it is counted —
-the published pages do not settle it.
+comparison, raise it with the agent rather than asserting how it is counted.
+The published pages do not settle it.
 
 ## Restocking fees matter to the return-and-rebuy fallback
 
@@ -113,7 +119,7 @@ unless the price drop clearly exceeds the fee. When raising it, state the fee.
 ## How the request is made
 
 BestBuy.com purchases: online chat or phone (1-888-237-8289) only. Not in
-store. Not by email. Chat availability is limited — phone is the reliable
+store. Not by email. Chat availability is limited, phone is the reliable
 channel. In-store purchases are handled in store.
 
 The purchaser makes the request. Best Bot never does.
@@ -122,6 +128,6 @@ The purchaser makes the request. Best Bot never does.
 
 Best Buy does not offer a standalone price-protection program beyond the
 return-window match described above. Credit card price protection was once a
-common network benefit but has been largely discontinued across US issuers —
-do not assert that a user's card has it. If they ask, tell them to check their
+common network benefit but has been largely discontinued across US issuers.
+Do not assert that a user's card has it. If they ask, tell them to check their
 own card benefits guide.
