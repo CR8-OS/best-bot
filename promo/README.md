@@ -3,8 +3,10 @@
 Launch and social material for Best Bot. Screenshots, memes, cards, anything
 made to post rather than to ship.
 
-**Contents of this folder are deliberately not committed.** The `.gitignore`
-excludes everything here except this README.
+**Most of this folder is deliberately not committed.** The `.gitignore` excludes
+everything here except this README and `kawaii-butter-bot.jpg`, which is
+committed so the root README can display it, under the carve-out spelled out in
+LICENSE and in the README's Brand and legal section.
 
 The reason is licensing. The repo is MIT, which grants anyone the right to use,
 modify, sublicense and sell what is in it. That is a fine promise to make about

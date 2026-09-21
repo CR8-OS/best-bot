@@ -50,6 +50,10 @@ because the agent found another adjustment while we were on the line.
 
 Total effort on my part: about four minutes.
 
+<p align="center">
+  <img src="promo/kawaii-butter-bot.jpg" alt="Butter robot meme: What's my purpose? You help people get a Best Buy price match." width="420">
+</p>
+
 ## Why I packaged it up
 
 Consumer protections keep getting written as rights you have to actively
@@ -143,6 +147,10 @@ Best Bot is an independent project. It is **not affiliated with, endorsed by, or
 sponsored by Best Buy Co., Inc.** "Best Buy," "My Best Buy," and related marks
 belong to their owner and are referenced here only to describe what this tool
 works with.
+
+The meme in this README is built on frames from Rick and Morty, used as
+commentary. Those frames belong to their rights holders, not to this project,
+and they are carved out of the MIT license. See LICENSE.
 
 Store policies change without notice. This plugin encodes Best Buy's published
 policy as of September 2026, and instructs Claude to trust a live policy page

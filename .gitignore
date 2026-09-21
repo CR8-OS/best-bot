@@ -10,6 +10,7 @@ node_modules/
 # See promo/README.md for why.
 promo/*
 !promo/README.md
+!promo/kawaii-butter-bot.jpg
 
 # Guard against stray third-party images landing in the shipped package
 plugins/best-bot/assets/*.jpg
