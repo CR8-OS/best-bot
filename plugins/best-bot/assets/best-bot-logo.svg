@@ -1,17 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 320" width="1120" height="320" role="img" aria-label="Best Bot">
   <title>Best Bot</title>
   <g transform="translate(30,-6) scale(0.58)">
-    <g stroke="#0B1B2E" stroke-width="16" stroke-linecap="round" fill="#0B1B2E">
+    <g stroke="#0F0F0F" stroke-width="16" stroke-linecap="round" fill="#0F0F0F">
       <line x1="256" y1="100" x2="256" y2="62"/>
       <circle cx="256" cy="44" r="18" stroke="none"/>
     </g>
     <path d="M 186 110 L 326 110 L 326 270 L 398 270 L 256 428 L 114 270 L 186 270 Z"
-          fill="#2FE3A6" stroke="#2FE3A6" stroke-width="26" stroke-linejoin="round"/>
-    <g fill="#0B1B2E">
+          fill="#FFF200" stroke="#0F0F0F" stroke-width="18" stroke-linejoin="round" stroke-linecap="round"/>
+    <g fill="#0F0F0F">
       <rect x="203" y="156" width="38" height="50" rx="14"/>
       <rect x="271" y="156" width="38" height="50" rx="14"/>
     </g>
   </g>
   <text x="300" y="212" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif"
-        font-size="132" font-weight="800" letter-spacing="-3" fill="#0B1B2E">BEST BOT</text>
+        font-size="132" font-weight="800" letter-spacing="-3" fill="#0F0F0F">BEST BOT</text>
 </svg>

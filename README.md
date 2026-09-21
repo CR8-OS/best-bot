@@ -99,8 +99,8 @@ or sponsored by Best Buy Co., Inc.** "Best Buy," "My Best Buy," and related
 marks belong to their owner and are referenced here only to describe what this
 tool works with.
 
-The Best Bot logo was drawn for this project. Best Buy's marks, logo, and
-colors are not used in it.
+The Best Bot logo was drawn for this project and does not reproduce Best Buy's
+logo or any part of it. Best Buy's marks are not used in it.
 
 Store policies change without notice. This plugin encodes Best Buy's published
 policy as of September 2026 and instructs Claude to trust a live policy page

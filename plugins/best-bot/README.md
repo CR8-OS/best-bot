@@ -33,7 +33,8 @@ wordmark in a font stack (Inter, then system sans), so the wordmark's exact
 shape depends on what the viewer has installed — use `best-bot-logo.png` where
 the rendering must be fixed.
 
-The logo was drawn for this project. Best Buy's marks, logo, and colors are not
-used in it.
+The logo was drawn for this project and does not reproduce Best Buy's logo or
+any part of it. Best Buy's marks are not used in it.
 
-Palette: mint `#2FE3A6`, ink `#0B1B2E`.
+Palette: yellow `#FFF200`, ink `#0F0F0F`. The mark carries an ink keyline so it
+holds an edge against white backgrounds, where the yellow alone would wash out.
