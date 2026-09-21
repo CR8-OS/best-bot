@@ -26,9 +26,8 @@ That last phrase carries a lot of weight.
 
 Nobody emails you when the price drops. You have to know your window started the
 day the thing arrived, not the day you ordered it. You have to know whether
-yours is 15 days or 60, and that the answer comes from your membership and not
-from the credit card in your wallet. You have to check the price yourself,
-repeatedly, for weeks. You have to confirm the lower price is not a marketplace
+yours is 15 days or 60. You have to check the price yourself, repeatedly, for
+weeks. You have to confirm the lower price is not a marketplace
 seller, a bundle, an open-box unit, or a daily deal, because every one of those
 is excluded. Then you have to get on the phone.
 
@@ -118,14 +117,13 @@ On purpose:
   scheduled task, its notifications, and its replies.
 - **It won't ping you for nothing.** No news, no notification.
 
-## Two things people get wrong, both of which cost money
+## The thing people get wrong, and it costs money
 
 **The clock starts at delivery, not at purchase.** Best Buy's policy begins the
 period the day you receive the product. On anything shipped, that's free extra
 window you probably didn't know you had.
 
-**The length comes from membership, not from a Best Buy credit card.** The old
-spend-based Elite tiers are gone. Your card does nothing for your return window.
+Window lengths, for reference:
 
 | | Window |
 |---|---|
@@ -145,9 +143,6 @@ Best Bot is an independent project. It is **not affiliated with, endorsed by, or
 sponsored by Best Buy Co., Inc.** "Best Buy," "My Best Buy," and related marks
 belong to their owner and are referenced here only to describe what this tool
 works with.
-
-The Best Bot logo was drawn for this project and does not reproduce Best Buy's
-logo or any part of it. Best Buy's marks are not used in it.
 
 Store policies change without notice. This plugin encodes Best Buy's published
 policy as of September 2026, and instructs Claude to trust a live policy page
