@@ -22,7 +22,7 @@ that they will refund you the difference when a price drops. Their Price Match
 Guarantee says so plainly: if they lower their own price during your return and
 exchange period, they will match it. Upon request.
 
-That last phrase carries a lot of weight.
+The onus being on you is by design.
 
 Nobody emails you when the price drops. You have to know your window started the
 day the thing arrived, not the day you ordered it. You have to know whether
