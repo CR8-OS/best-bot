@@ -15,7 +15,7 @@
 
 ---
 
-## The policy is real. The friction is the product.
+## The policy is legit, but it relies on hassle.
 
 I like Best Buy. I've bought most of my gear there for twenty years, and I like
 that they will refund you the difference when a price drops. Their Price Match
