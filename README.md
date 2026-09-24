@@ -17,38 +17,37 @@
 
 ## The policy is legit, but it relies on hassle.
 
-I like Best Buy. I've bought most of my gear there for twenty years, and I like
-that they will refund you the difference when a price drops. Their Price Match
-Guarantee says so plainly: if they lower their own price during your return and
-exchange period, they will match it. Upon request.
+I like Best Buy. Twenty years of buying gear there, and I like that they refund
+you the difference when a price drops. Their Price Match Guarantee says it
+plainly: if they lower their own price during your return and exchange period,
+they'll match it. Upon request.
 
 The onus being on you is by design.
 
 Nobody emails you when the price drops. You have to know your window started the
 day the thing arrived, not the day you ordered it. You have to know whether
-yours is 15 days or 60. You have to check the price yourself, repeatedly, for
-weeks. You have to confirm the lower price is not a marketplace
-seller, a bundle, an open-box unit, or a daily deal, because every one of those
-is excluded. Then you have to get on the phone.
+yours is 15 days or 60. You have to check the price yourself, over and over, for
+weeks. You have to rule out marketplace sellers, bundles, open-box units and
+daily deals, because every one of those is excluded. Then you have to call.
 
-None of that is a trick. It is a real policy, honored by real people who will
-help you when you call. It is just enough homework that most of us never
-collect. A benefit you have to work for is a benefit most people leave on the
-table, and everybody involved knows it.
+None of it is a trick. Real policy, real people on the phone who will help you
+once you get there. It's just enough homework that most of us never bother, and
+breakage has been a line item in retail forecasting since long before anyone
+had a word for it.
 
 ## What happened
 
 I bought a laptop in September. Three days later Best Buy dropped the price on
-that exact SKU by $570. I didn't notice, because I wasn't looking, because who
-looks.
+that exact SKU by $570. I didn't notice. I wasn't looking. Who looks?
 
-What noticed was a scheduled AI task I'd pointed at the product page before
-closing my laptop for the night. It loaded the page, checked the price against
-what I paid, ran the eligibility rules, and pinged my phone with the number and
-a script. One phone call later I had $620 back, which was more than the drop,
-because the agent found another adjustment while we were on the line.
+What was looking was a scheduled AI task I'd pointed at the product page the
+night before, mostly to find out whether it would work at all. It loaded the
+page, checked the price against what I paid, ran the eligibility rules, and
+pinged my phone with the number and a script to read. One call later I had $620
+back, which is more than the drop, because the agent found another adjustment
+while we were on the line. (I did not argue with her.)
 
-Total effort on my part: about four minutes.
+Four minutes of my life, total.
 
 <p align="center">
   <img src="promo/kawaii-butter-bot.jpg" alt="Butter robot meme: What's my purpose? You help people get a Best Buy price match." width="420">
@@ -56,19 +55,19 @@ Total effort on my part: about four minutes.
 
 ## Why I packaged it up
 
-Consumer protections keep getting written as rights you have to actively
-exercise, on a deadline, with homework. Price matching, rebates, warranty
-claims, fee refunds, the whole genre. The design assumes you have attention to
-spare. Most people don't, and the companies modeling breakage rates are counting
-on precisely that.
+Here's the pattern I keep running into. Consumer protections get written as
+rights you have to actively exercise, on a deadline, with homework. Price
+matching, rebates, warranty claims, fee refunds, the whole genre. The design
+assumes you have attention to spare. You don't. Nobody does. That part is
+already priced in.
 
-AI happens to be good at the exact thing that friction depends on: showing up
-every single day and checking, without getting bored, without forgetting, and
-without needing to be reminded that the clock is running.
+I've sat through enough tech cycles to be skeptical of anything sold as
+revolutionary. This is not that. It's an agent that shows up every day and
+checks a number, which is dull work, and dull work is exactly what friction has
+always counted on you skipping.
 
-So this is my small argument for pointing AI at consumers instead of at them.
-Same technology that's busy optimizing conversion funnels, aimed the other
-direction for once.
+We've spent a few years pointing this stuff at consumers. I'd like to see more
+of it pointed the other way.
 
 ## Install
 
@@ -171,13 +170,13 @@ plugins/best-bot/
 
 ## If it pays you back
 
-This is free, MIT, and yours to fork. But if Best Bot claws a few hundred
-dollars out of the ether for you, and you're feeling flush with your own
-recovered money, there's a Ko-fi link below. Tips go straight into building more
-of these, because there are a lot of consumer protections out there gathering
-dust for exactly the same reason this one was.
+Free, MIT, fork it. But if Best Bot pulls a few hundred back out of a purchase
+you'd already stopped thinking about, and you feel like sharing money you
+weren't counting on, the Ko-fi link is below. Tips fund the next one, and there
+is a long list of protections sitting uncollected for the same reason this one
+was.
 
-If it saved you nothing, you owe me nothing. Seems fair.
+If it got you nothing, you owe me nothing. Seems fair.
 
 <p align="center">
   <a href="https://ko-fi.com/W7W7H4VS6"><img src="https://ko-fi.com/img/githubbutton_sm.svg" alt="Support me on Ko-fi"></a>
