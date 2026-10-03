@@ -97,6 +97,25 @@ in `price-match-rules.md` is more than 90 days old, mention it once in the next
 notification you were already sending. Do not send a notification purely to
 report that a reference file is getting old.
 
+## Checking several watches in one sweep
+
+Order the work so the cheap exits happen first.
+
+1. Load every active watch's Best Buy SKU page before touching any competitor.
+   A qualifying drop on Best Buy's own price ends that item's check, and most
+   finds are of that kind.
+2. Only for items with no qualifying Best Buy drop, go to competitors. That is
+   the expensive part and most items will not need it.
+3. Keep each item's evidence separate. Never let a price, seller or stock
+   status read on one product page carry over to another item. Two laptops in
+   one sweep is the easiest way to attach the wrong URL to the wrong claim.
+4. Record `last_checked` and `check_after` per item as you go, so a sweep that
+   dies halfway does not re-do everything on the next run.
+
+If one item's check fails, keep going. One dead product page must not abort the
+sweep for the other four. Collect the failures and report them together at the
+end.
+
 ## Anti-hallucination discipline
 
 - Quote the price as it appeared on the loaded page.

@@ -20,8 +20,10 @@ See the [repository README](../../README.md) for install and usage.
   member pricing, or stale pages
 - `skills/best-bot/references/claim-scripts.md`: claim wording and pushback
   handling
-- `skills/best-bot/references/schedule-template.md`: scheduled-task setup and
-  the self-contained run prompt
+- `skills/best-bot/references/watchlist-format.md`: config and ledger schema,
+  the markdown view, Gmail top-up, migrating a v1 watch
+- `skills/best-bot/references/running-the-sweep.md`: trigger mechanisms, the
+  October 2026 Cowork cloud change, and how to choose one
 - `assets/`: logo
 
 ## Asset notes

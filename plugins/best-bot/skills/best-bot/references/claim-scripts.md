@@ -54,6 +54,15 @@ Have the URL ready to paste if asked.
   fallback at all unless the drop clearly exceeds the fee, and state the fee
   when raising it.
 
+## More than one find in a sweep
+
+Give one script per order. Never combine two orders into a single call script:
+the agent handles one order number at a time, and a merged script guarantees a
+confused call.
+
+Order them by dollar value, largest first, so the user makes the call that
+matters most while they still have the patience for it.
+
 ## Channel note
 
 Phone (1-888-237-8289) is the reliable channel. Online chat exists but has

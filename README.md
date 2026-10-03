@@ -78,16 +78,23 @@ of it pointed the other way.
 
 ## Use
 
-Give it your order details. Upload the confirmation email, paste the receipt
-text, or drop in a screenshot:
+Point it at a folder once:
 
-> Watch this Best Buy order for a price drop.
+> Set up Best Bot. My confirmations go in ~/Documents/Receipts.
 
-It confirms what it read off the receipt, works out your window end date, runs a
-check immediately, and sets up a recurring watch that stops when your window
-does. Then it goes quiet until there's something worth acting on.
+After that, adding a watch means saving the order confirmation to that folder.
+Laptop in September, printer in October, both watched, each on its own clock,
+no setup in between.
 
-To stop it, delete the scheduled task, or just ask.
+Every sweep reads the folder, picks up anything new, checks each purchase still
+inside its window, retires the ones whose window closed, and rewrites a
+`WATCHLIST.md` you can open to see where everything stands. It stays quiet
+unless something needs you.
+
+> Check my watches.
+
+That works any time. On a schedule it works the same way, because the schedule
+only ever says "sweep this folder."
 
 ## What it needs
 
@@ -95,8 +102,14 @@ To stop it, delete the scheduled task, or just ask.
   real price checks need a real browser. If the watch will use the browser on
   your own machine, the scheduled task has to be created with that requirement
   set. It can't be added afterward, and the skill handles this at setup.
-- **Scheduled task support** for the recurring watch. Without it you still get a
-  one-off check and a straight answer.
+- **Some way to run it on a schedule**, if you want it unattended. Cowork
+  scheduled tasks, cloud routines, a desktop scheduled task, or plain OS cron
+  all work, because the trigger carries one folder path and nothing else. None
+  is required; "check my watches" runs the same sweep by hand.
+- **The desktop app open**, if your watch folder lives on your computer and the
+  sweep runs in the cloud. From October 6, 2026, new Cowork tasks on Pro and
+  Max run in the cloud, and per Anthropic's docs, tasks that use files on your
+  computer need the desktop app open.
 - **Automatic approval on the task**, or runs stall waiting for a prompt nobody
   is there to answer.
 

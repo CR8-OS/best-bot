@@ -6,14 +6,14 @@
   },
   "metadata": {
     "description": "Practical automations from CR8-OS.",
-    "version": "1.2.0"
+    "version": "2.0.0"
   },
   "plugins": [
     {
       "name": "best-bot",
       "source": "./plugins/best-bot",
-      "description": "Watches a Best Buy purchase for price drops through your return window and writes the price-match claim for you.",
-      "version": "1.2.0",
+      "description": "Watches every Best Buy purchase in a folder for price drops through each return window, and writes the price-match claim for you.",
+      "version": "2.0.0",
       "author": {
         "name": "CR8-OS",
         "url": "https://github.com/CR8-OS"
