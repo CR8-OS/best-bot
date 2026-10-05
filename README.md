@@ -1,4 +1,4 @@
-﻿<p align="center">
+<p align="center">
   <img src="plugins/best-bot/assets/best-bot-logo.png" alt="Best Bot" width="400">
 </p>
 
