@@ -1,4 +1,4 @@
-<p align="center">
+﻿<p align="center">
   <img src="plugins/best-bot/assets/best-bot-logo.png" alt="Best Bot" width="400">
 </p>
 
@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="https://ko-fi.com/W7W7H4VS6"><img src="https://ko-fi.com/img/githubbutton_sm.svg" alt="Support me on Ko-fi"></a>
+  <a href="https://ko-fi.com/cj48744"><img src="https://ko-fi.com/img/githubbutton_sm.svg" alt="Support me on Ko-fi"></a>
 </p>
 
 ---
@@ -192,7 +192,7 @@ was.
 If it got you nothing, you owe me nothing. Seems fair.
 
 <p align="center">
-  <a href="https://ko-fi.com/W7W7H4VS6"><img src="https://ko-fi.com/img/githubbutton_sm.svg" alt="Support me on Ko-fi"></a>
+  <a href="https://ko-fi.com/cj48744"><img src="https://ko-fi.com/img/githubbutton_sm.svg" alt="Support me on Ko-fi"></a>
 </p>
 
 More tools at [github.com/CR8-OS](https://github.com/CR8-OS).
